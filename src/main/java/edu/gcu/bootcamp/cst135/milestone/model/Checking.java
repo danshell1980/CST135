@@ -1,6 +1,4 @@
-package edu.gcu.bootcamp.cst135.milestone.controller;
-
-import edu.gcu.bootcamp.cst135.milestone.model.Account;
+package edu.gcu.bootcamp.cst135.milestone.model;
 
 public class Checking extends Account {
 

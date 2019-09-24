@@ -2,12 +2,14 @@ package edu.gcu.bootcamp.cst135.milestone.controller;
 
 import java.util.Scanner;
 
+import edu.gcu.bootcamp.cst135.milestone.model.Checking;
+import edu.gcu.bootcamp.cst135.milestone.model.Saving;
+
 public class Bank {
-
 	Scanner scanner = new Scanner(System.in);
-	Saving saving = new Saving("-SAV12345",5000,200,25,.06);
-	Checking checking = new Checking("-CHK23456",5000,25);
-
+	public Saving saving = new Saving("-SAV12345",5000,200,25,.06);
+	public Checking checking = new Checking("-CHK23456",5000,25);
+	
 	private void viewExitScreen() {
 		System.out.println("Goodbye, Have a good day!");
 	}

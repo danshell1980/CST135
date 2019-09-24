@@ -1,6 +1,6 @@
 package edu.gcu.bootcamp.cst135.milestone.model;
 
-public abstract Account {
+public abstract class Account {
 
 	private String accountNumber;
 	private double accountBalance;
